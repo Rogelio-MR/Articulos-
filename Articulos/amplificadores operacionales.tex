@@ -1,0 +1,263 @@
+
+\documentclass{article}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla]{babel}
+\usepackage{tabularx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{float}
+\usepackage{caption}
+%\graphicspath{{./}{img/}}
+\graphicspath{{../Imagenes/}}
+\usepackage[top=2.5cm, bottom=2.5cm, left=2cm, right=2cm]{geometry}
+
+%%%Encabezado y Pie de pagina
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[L]{Electrónica Digital}
+\fancyhead[R]{\today}
+\fancyfoot[L]{Colaboró – Rogelio Martínez}
+\fancyfoot[C]{Revisión - Ricardo Lopez Macedo}
+\fancyfoot[R]{\thepage}
+
+\renewcommand{\headrulewidth}{1.5pt}
+\renewcommand{\footrulewidth}{1.5pt}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[L]{Escuela Superior de Ingeniería Mecánica y Electrica}
+  \fancyhead[R]{\today}
+  \fancyfoot[L]{Colaboró – Rogelio Martínez}
+  \fancyfoot[R]{\thepage}
+  \fancyfoot[C]{ Ricardo López Macedo}  
+  \renewcommand{\headrulewidth}{1.5pt}
+  \renewcommand{\footrulewidth}{1.5pt}
+}
+
+\date{}
+
+\title{AMPLIFICADORES OPERACIONALES}
+\begin{document}
+
+\maketitle  % Opcional, pero recomendable para que el PDF no esté vacío
+
+\textbf{\textit{En muchos sistemas receptores puede usarse el amplificador operacional (OPAM) como amplificador de audio, en lugar de utilizar uno con transistores discreto.
+Por lo general el OPAM se utiliza para amplificar la entrada de audio que energiza a un amplificador de potencia en contrafase del transistor.}}
+
+
+
+
+\begin{multicols}{2}
+\section{Símbolos y Terminales}
+%\subsection{}
+El amplificador operacional ordinario opera con dos voltajes de referencia $V^{+} y V^{-}$ en CD, como se muestra abajo.\\
+En la figura \ref{fig:Opam} se muestra el simbolo común de un OPAM. Tiene dos terminales de entrada, llamadas inversora (-) y no inversora (+), así como una terminal de salida. 
+Generalmente estas termminales se eliminan del simbolo esquemático, auqnue  siempre se entiende que deben estar conectados a los voltajes de referencia.
+\\\\
+\begin{center}
+\includegraphics[width=\linewidth]{Opam}
+\captionof{figure}{Simbolo Schematico y Terminales de un Amplificador Operacional}
+\label{fig:Opam}
+\end{center}
+
+%\subsection{Objetivos Particulares}
+ %\begin{itemize}
+  %\item Objetivo P1
+  %\item Objetivo P2
+  %\item Objetivo P3
+  %\item Objetivo P4
+ %\end{itemize}
+
+\section{Amplificador Operacional Ideal(Teórico)}
+El amplificador operaciona tiene una ganacia de voltaje y un ancho de banda infinitas.También tiene una impedancia de entrada infinita (abeirto), así que no extrae potencia alguna de la fuente de polarización.
+Finalmente, tiene impedancia de salida nul El voltaje de entrada $V_{in}$ aparece entre entre las dos trerminales de entrada.
+El concepto de impedancia de entrada infinita lo veremos más adelante en sus diferentes configuraciones. 
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=1\textwidth]{path/to/file.png}
+%	\caption{Enter Caption}
+%\end{figure}
+ 
+\section{Amplificador Operacional Práctico (Laboratorio)}
+En la práctica, los amplificadores operacionales no son dispositivos perfectos, ya que tienen límites de voltaje y corriente.
+Por ejemplo, el voltaje de salida no puede alcanzar exactamente el valor de las fuentes de alimentación, sino que normalmente queda un poco por debajo de estos niveles.
+Además, la corriente de salida está limitada por la potencia que el dispositivo puede disipar y por las especificaciones del fabricante.\\
+A pesar de estas limitaciones, un OPAM real se caracteriza por tener una alta ganancia de voltaje, una impedancia de entrada muy grande (lo que evita consumir corriente de la señal de entrada), una baja impedancia de salida y un amplio rango de frecuencias de operación.
+
+
+
+\subsection{Especificaciones Técnicas}
+A continuación veremos varios parámetros importnates para el uso de un amplificador operacional, los cuales se encuentran en la hoja de datos (Data sheet) del dispositivo.\\
+En este caso nos basaremos del Opam LM741 de 
+
+
+\subsubsection{Input Offset Voltage ($V_{OS}$)}
+
+Se denomina Input offset voltage a la pequeña diferencia de voltaje que se requiere entre las terminales de entrada para que la salida del amplificador operacional sea cero. En un amplificador operacional ideal, esta diferencia sería exactamente cero, pero en la práctica, debido a imperfecciones en el diseño y fabricación del dispositivo, existe un pequeño voltaje de offset. Este voltaje puede causar errores en aplicaciones de amplificación de señales pequeñas, ya que puede amplificarse junto con la señal de entrada, afectando la precisión del resultado final. Por lo tanto, es importante considerar el valor del input offset voltage al seleccionar un amplificador operacional para una aplicación específica.\\  
+En el caso del LM741, el valor típico del input offset voltage es de alrededor de $+/-$10 mV, aunque puede variar dependiendo de la temperatura y otras condiciones de operación. Es importante revisar la hoja de datos del dispositivo para obtener información precisa sobre este parámetro y su impacto en el rendimiento del amplificador operacional en diferentes aplicaciones.\\
+Como podemos observar en la figura \ref{fig:io_voltage} 
+
+\begin{center}
+\includegraphics[width=\linewidth]{io_voltage2}
+\captionof{figure}{Ubicación del parámetro en el datasheet del LM741}
+\label{fig:io_voltage}
+\end{center}
+
+es importante considerar el $V_{OS}$ cuando se amplifican señales muy pequeñas por ejemplo
+\begin{itemize}
+    \item Sensores de temperatura
+    \item Celdas de carga
+    \item Termopares
+    \item Instrumentación biomédica
+
+\end{itemize}
+Desde el punto de vista del modelado, el voltaje de offset puede representarse como una pequeña fuente de voltaje conectada en serie con una de las entradas del amplificador. Este voltaje genera errores en aplicaciones donde se amplifican señales de baja amplitud, ya que el error también es amplificado por la ganancia del circuito.
+\subsubsection{Input Bias Current ($I_{IB}$)}
+
+La corriente de polarización en la entrada es la corriente (CD) requerida por las entradas del amplificador operacional para operar apropiadamente la primera etapa. Por definición, la corriente\textit{Input bias current} es el promedio de ambas corrientes de polarización en las entradas inversora y no inversora.\\
+Se calcula con la siguiente ecuación.\\
+
+\begin {center}
+\vspace{0.3cm}
+$I_{BIAS} = \frac{I_{1} + I_{2}}{2} $
+\vspace{0.3cm}
+\end{center}
+
+En la práctica, los transistores internos necesitan corriente para funcionar, Por esta razón una pequeña corriente fluye a través de las terminales de entrada, la magnitud de esta corriente depende de la tecnología utilizada:
+\begin{itemize}
+\item Amplificadores bipolares $\longrightarrow$  corrientes mayores.
+\item Amplificadores JFET $\longrightarrow$  corrientes menores.
+\item Amplificadores CMOS $\longrightarrow $ corrientes extremadamente pequeñas 
+\end{itemize}
+
+Este efcto puede pasr desapercibido al trabajar con resistencias de valores bajos, pero al trabajar con resistencias con valores del orden de los Mega Ohms o sensores de alta impedancia 
+la corriente de polarización genera caídas de tensión que alteran las mediciones. Por ejemplo al trabajar con fotodiodos, piezoélectricos, electrodos biomédicos la corriente polarización puede generar errores apreciables.\\
+Por ello es común que en el laboratorio se agregue una resistencia de compensación para reducir el error producido por estas corrientes.
+
+\begin{center}
+\includegraphics[width=\linewidth]{ib_current}
+\captionof{figure}{Ubicación del parámetro en el datasheet, denotando el valor tipico de corriente}
+\label{fig:ib_current}
+\end{center}
+
+
+\subsubsection{Impedancia de Entrada (Input Resistance) $R_{in}$}
+Se define así a la impedancia de entrada diferencial a \textit{la resistencia total entre las entradas} inverosra y no inversora. La impedancia de entrada se mide determinando el cambio en la corriente de polarización, dado el voltaje de entrada diferencial.\\
+Cuanto mayor sea la impedancia de entrada, menor será la corriente absorbida desde la fuente de señal, la impedancia de entrada elevada significa que el OpAmp prácticamente no carga al sistema que está generando la señal.\\
+Esta característica es una de las razones principales por las cuales los amplificadores operacionales son tan utilizados en sistemas de medición.
+
+\begin{center}
+\includegraphics[width=\linewidth]{input_Z}
+\captionof{figure}{Ubicación del parámetro en el datasheet, denotando el valor tipico de impedancia }
+\label{fig:input_Z}
+\end{center}
+
+\subsubsection{Input Offset Current ($I_{OS}$)}
+La\textit{corriente de desnivel en la entrada}(Input offset current) es la difrencia entre las corrientes de entrada y se expresa como:
+\vspace{0.3cm}
+\begin{center}
+$I_{OS} = |I_{1} - I_{2}|$
+\vspace{0.3cm}
+\end{center}
+En muchas aplicaciones puede despreciarse el input offset current, sin Sin embargo, los amplificadores operacionales con impedancias (ganancias) de entrada altas deben tener una $I_{OS}$ tan pequeña como sea posible, pues la diferencia en corrientes a través de resistencias de entrada grandes desarrolla un voltaje de desnivel importante.\\
+ese voltaje está dado como\textbf{ $V_{OS} = I_{OS}R_{in}$}\\
+A la salida del amplificador operacional obtendremos un Voltaje de error, denotado por la siguientre expresión.\\
+\begin{center}
+$V_{OUT(error)} = A_{v} I_{OS} R_{in}$
+\vspace{0.3cm}
+\end{center}
+donde la corriente $I_{OS}$ se amplifica por la ganancia $A_{V}$ del Opamp.\\
+
+\begin{center}
+\includegraphics[width=\linewidth]{io_current}
+\captionof{figure}{Ubicación del parámetro en el datasheet, denotando el valor tipico de corriente }
+\label{fig:io_current}
+\end{center}
+
+\subsubsection{CMRR}
+La razon de rechazo en modo común (\textit{CMRR}) indica la acapacidad de un amplificador operacional para rechazar señales en modo común (cuando se aplica la misma señal a las entradas). Una CMRR grande faculta al amplificador operacional para eliminar virtualmente estas señales de interferencia en la salida.\\ 
+En prácticas de amplificadores diferenciales o amplificadores de instrumentación, un alto CMRR permite medir señales pequeñas aún cuando estén superpuestas a señales de ruido mucho mayores.
+Por esta razón, los equipos médicos, industriales y de adquisición de datos utilizan amplificadores con CMRR muy elevado.\\
+Para el calculo de la CMRR se realiza mediante:\\
+\begin{center}
+$CMRR = \frac{A_{ol}}{A_{cm}}$
+\vspace{0.3cm}
+\end{center}
+Donde $A_{ol} \longrightarrow $ \textit{Ganancia en lazo abierto}\\
+y $A_{cm}  \longrightarrow $ \textit{Ganancia en modo Común}\\
+\begin{description}
+  \item[Ganancia en lazo abierto]
+        Es la ganancia de un amplificador operacional sin ninguna realimentación externa de salida a la entrada, usualmete tiene valores entre 50k a 200k.
+
+  \item[Ganancia en modo Común]
+        Es un parámetro que describe cuánto amplifica un Opamp una señal que aparece igual en ambas entradas al mismo tiempo.
+
+\end{description}
+Comúnmente el CMRR se expresa en decibeles en el datasheet, y lo podemos encontrar aplicando la expresión: 
+\begin{center}
+  $CMRR = 20 \log_{} \left( \frac{A_{ol}}{A_{cm}} \right)$
+\vspace{0.3cm}
+\end{center}
+
+\begin{center}
+\includegraphics[width=\linewidth]{cmrr}
+\captionof{figure}{En el datasheet lo encontramos como "Common mode rejection ratio" }
+\label{fig:cmrr}
+\end{center}
+
+
+\subsubsection{Rapidez de Respuesta(Slew Rate)}
+Se denomina \textit{Slew Rate} a una especificación dinámica que indica la velocidad máxima a la que puede cambiar el voltaje de salida del amplificador operacional. A diferencia de los parámetros anteriores, que están relacionados principalmente con errores estáticos, el slew rate describe una limitación física del amplificador ante señales variables en el tiempo.
+Esta limitación surge porque los condensadores internos de compensación deben cargarse y descargarse mediante corrientes finitas. Como consecuencia, la salida no puede cambiar instantáneamente.\\
+Cuando la señal exige una velocidad de cambio superior al slew rate disponible, el amplificador deja de seguir fielmente la señal de entrada y aparece una distorsión denominada distorsión por slew rate. El ancho de pulso de la entrada debe ser suficiente para permitir que la salida "responda" desde su límite más bajo ($-V_{max}$) hasta su límite superior($+V_{max}$); se requiere de un cierto intervalo de tiempo($\Delta t$) para que se vea un cambio en la salida del Opamp. 
+Esta taza de cambio se define mediante la siguiente ecuación:\\
+\begin{center}
+  $SL = \frac{\Delta V_{out}}{\Delta t} = \frac{V}{\mu s}$
+\vspace{0.3cm}
+donde $\Delta V_{out} = +V_{max} - (-V_{max})$.\\
+\end{center}
+En el Datasheet encontraremos el Slew rate tipico que puede alcanzar el Opamp como podemos ver en la figura \ref{fig:slew_rate}
+
+\begin{center}
+\includegraphics[width=\linewidth]{slew_rate}
+\captionof{figure}{En el datasheet lo encontramos como "Slew Rate" }
+\label{fig:slew_rate}
+\end{center}
+
+
+
+\end{multicols}{2}
+\newpage
+\subsection{Resumen}
+Podemos clasificar estos parámetros de la siguiente forma.\\
+\vspace{0.3cm}
+\textbf{Parámetros de Precisión}\\
+\textit{Determian la exactitud de las mediciones y la magnitud de los errores estáticos.}
+\begin{itemize}
+  \item Input offset voltage
+  \item Input offset current
+  \item Input bias current
+\end{itemize}
+\textbf{Parámetros de Entrada}\\
+\textit{Determinan cómo interactúa el OpAmp con la señal aplicada.}
+\begin{itemize}
+  \item Input resistance
+  \item CMRR
+\end{itemize}
+\textbf{Parámetros Dinámicos}\\
+\textit{Determinan la capacidad de amplificación y la respuesta temporal del dispositivo.}
+\begin{itemize}
+  \item Slew rate
+\end{itemize}
+
+En conjunto, estas especificaciones permiten evaluar qué tan cercano es un amplificador operacional real al modelo ideal y determinar si es adecuado para aplicaciones de instrumentación, control, procesamiento analógico de señales o adquisición de datos.
+
+\end{document}
