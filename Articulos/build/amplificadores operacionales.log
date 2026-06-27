@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.23)  6 JUN 2026 00:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.23)  26 JUN 2026 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/amplificadores operacionales.tex"
-(c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/amplificadores operacionales.tex
+**"c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Articulos-/Articulos/amplificadores operacionales.tex"
+(c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Articulos-/Articulos/amplificadores operacionales.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -335,7 +335,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen258
 \Gm@layoutvoffset=\dimen259
 \Gm@dimlist=\toks38
- (C:\Users\mtzro\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)) (c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\amplificadores operacionales.aux
+ (C:\Users\mtzro\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)) (c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\amplificadores operacionales.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
@@ -453,7 +453,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--89
 
 [1{C:/Users/mtzro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
- <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Imagenes/Opam.png>]
+ <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Articulos-/Articulos/Imagenes/Opam.png>]
 <../Imagenes/io_voltage2.png, id=17, 513.41812pt x 67.75313pt>
 File: ../Imagenes/io_voltage2.png Graphic file (type png)
 <use ../Imagenes/io_voltage2.png>
@@ -484,7 +484,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
-[2 <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Imagenes/io_voltage2.png> <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Imagenes/ib_current.png> <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Imagenes/input_Z.png>]
+[2 <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Articulos-/Articulos/Imagenes/io_voltage2.png> <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Articulos-/Articulos/Imagenes/ib_current.png> <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Articulos-/Articulos/Imagenes/input_Z.png>]
 <../Imagenes/io_current.png, id=29, 510.40688pt x 30.86531pt>
 File: ../Imagenes/io_current.png Graphic file (type png)
 <use ../Imagenes/io_current.png>
@@ -517,9 +517,9 @@ Package pdftex.def Info: ../Imagenes/slew_rate.png  used on input line 230.
 (pdftex.def)             Requested size: 245.24199pt x 8.3194pt.
 
 
-[3 <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Imagenes/io_current.png> <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Imagenes/cmrr.png> <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Imagenes/slew_rate.png>]
+[3 <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Articulos-/Articulos/Imagenes/io_current.png> <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Articulos-/Articulos/Imagenes/cmrr.png> <c:/Users/mtzro/OneDrive/Documentos/SERVICIO/Articulos/Articulos-/Articulos/Imagenes/slew_rate.png>]
 
-[4] (c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\amplificadores operacionales.aux
+[4] (c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\amplificadores operacionales.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -530,14 +530,14 @@ L3 programming layer <2025-04-14>
  ) 
 Here is how much of TeX's memory you used:
  7291 strings out of 469940
- 122796 string characters out of 5479476
+ 123027 string characters out of 5479476
  621422 words of memory out of 5000000
  34016 multiletter control sequences out of 15000+600000
  635393 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,12n,77p,839b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,12n,77p,860b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\amplificadores operacionales.pdf" (4 pages, 256772 bytes).
+Output written on "c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\amplificadores operacionales.pdf" (4 pages, 256778 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

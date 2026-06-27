@@ -1,7 +1,7 @@
-PWD c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos
+PWD c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos
 INPUT C:\Users\mtzro\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\amplificadores operacionales.tex
-OUTPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\amplificadores operacionales.log
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\amplificadores operacionales.tex
+OUTPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\amplificadores operacionales.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
@@ -87,10 +87,10 @@ INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
 INPUT C:\Users\mtzro\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\mtzro\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\mtzro\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\amplificadores operacionales.aux
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\amplificadores operacionales.aux
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\amplificadores operacionales.aux
-OUTPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\amplificadores operacionales.aux
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\amplificadores operacionales.aux
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\amplificadores operacionales.aux
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\amplificadores operacionales.aux
+OUTPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\amplificadores operacionales.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -136,53 +136,53 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\Opam.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\Opam.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\Opam.png
-OUTPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\amplificadores operacionales.pdf
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\Opam.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\Opam.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\Opam.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\Opam.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\Opam.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\Opam.png
+OUTPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\amplificadores operacionales.pdf
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\Opam.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\Opam.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\Opam.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\mtzro\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\io_voltage2.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\io_voltage2.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\io_voltage2.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\io_voltage2.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\io_voltage2.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\io_voltage2.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\io_voltage2.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\io_voltage2.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\io_voltage2.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\io_voltage2.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\io_voltage2.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\io_voltage2.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\ib_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\ib_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\ib_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\ib_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\ib_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\ib_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\input_Z.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\input_Z.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\input_Z.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\input_Z.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\input_Z.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\input_Z.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\io_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\io_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\io_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\io_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\io_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\io_current.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\cmrr.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\cmrr.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\cmrr.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\cmrr.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\cmrr.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\cmrr.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\slew_rate.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\slew_rate.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\..\Imagenes\slew_rate.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\slew_rate.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\slew_rate.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Imagenes\slew_rate.png
-INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\build\amplificadores operacionales.aux
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\ib_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\ib_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\ib_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\ib_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\ib_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\ib_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\input_Z.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\input_Z.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\input_Z.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\input_Z.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\input_Z.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\input_Z.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\io_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\io_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\io_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\io_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\io_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\io_current.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\cmrr.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\cmrr.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\cmrr.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\cmrr.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\cmrr.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\cmrr.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\slew_rate.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\slew_rate.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\..\Imagenes\slew_rate.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\slew_rate.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\slew_rate.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\Imagenes\slew_rate.png
+INPUT c:\Users\mtzro\OneDrive\Documentos\SERVICIO\Articulos\Articulos-\Articulos\build\amplificadores operacionales.aux
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
